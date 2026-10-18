@@ -1,0 +1,31 @@
+# The Smith family
+# Used by the README quick start. Clean file: `kinfold lint` reports nothing.
+
+person ann  "Ann Smith"   born=1928-02-14 died=2011-07-09 sex=F
+person bob  "Bob Smith"   born=1925-11-02 died=1999-01-30 sex=M
+person eve  "Eve Brown"   born=1930-06-21 died=2015-03-03 sex=F
+person hal  "Hal Brown"   born=1927-08-19 died=1985-12-12 sex=M
+person cy   "Cy Smith"    born=1952-05-20 sex=M
+person dee  "Dee Smith"   born=1955-01-09 sex=F
+person fran "Fran Brown"  born=1956-04-11 sex=F
+person gus  "Gus Smith"   born=1978-09-30 sex=M
+person hana "Hana Smith"  born=1981-03-17 sex=F
+person ivo  "Ivo Smith"   born=1984-12-01 sex=M
+person jo   "Jo Smith"    born=2010-07-04 sex=F
+
+parent ann cy
+parent bob cy
+parent ann dee
+parent bob dee
+parent eve fran
+parent hal fran
+parent cy gus
+parent fran gus
+parent cy hana
+parent fran hana
+parent dee ivo
+parent gus jo
+
+spouse ann bob married=1948-06-12
+spouse eve hal married=1950-09-02
+spouse cy fran married=1975-05-30
